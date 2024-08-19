@@ -1,0 +1,208 @@
+p {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0px;
+}
+
+.highest-div {
+  display: flex;
+  background-color: #131921;
+  height: 60px;
+}
+
+.logo-div {
+  width: 150px;
+  height: 41px;
+  padding: 9px;
+}
+
+.logo-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  cursor: pointer;
+}
+
+.spedizione-div {
+  width: 20px;
+  height: 40px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.consegna-posizione-div {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.posizione-div {
+  display: inline-block;
+  width: 20px;
+}
+
+.posizione-img {
+  width: 15px;
+  height: 20px;
+  padding-top: 10px;
+}
+
+.in-consegna-a-div {
+  height: 20px;
+  width: 250px;
+}
+
+.in-consegna-a-p {
+  color: #cccccc;
+  width: 210px;
+}
+
+.aggiorna-posizione-div {
+  height: 20px;
+}
+
+.aggiorna-posizione-p {
+  color: white;
+  width: 200px;
+  height: 20px;
+}
+
+.ricerca-div {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+}
+
+.desktop-pulsante {
+  background-color: #d4d4d4;
+  height: 39px;
+  width: 77px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: 0px;
+}
+
+.ricerca-amazon {
+  height: 39px;
+  width: 880px;
+  border: 0px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.cerca-pulsante {
+  width: 45px;
+  height: 39px;
+  background-color: #f3a847;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: 0px;
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.regione-div {
+  display: flex;
+  flex-direction: row;
+  margin-left: 25px;
+  padding-top: 25px;
+}
+
+.bandiera-italiana {
+  width: 25px;
+}
+
+.it {
+  color: white;
+  padding-left: 7px;
+}
+
+.accedi-liste-div {
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+  padding-top: 9px;
+}
+
+.ciao-accedi-p {
+  color: white;
+}
+
+.account-liste-p {
+  color: white;
+}
+
+.resi-ordini-div {
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+  padding-top: 9px;
+}
+
+.resi-p {
+  color: white;
+}
+
+.ordini-p {
+  color: white;
+}
+
+.carrello-div {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.carrello-img {
+  width: 60px;
+}
+
+.carrello-p {
+  padding-top: 30px;
+  color: white;
+}
+
+.sezioni {
+  background-color: #232f3e;
+  display: flex;
+  flex-direction: row;
+  height: 39px;
+}
+
+.three-rows-img {
+  width: 30px;
+  padding-top: 1px;
+  padding-left: 10px;
+}
+
+.sezioni-p {
+  color: white;
+  padding-top: 8px;
+  padding-right: 20px;
+  padding-left: 5px;
+}
+
+/*
+.principal-div {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.div1 {
+  background-color: red;
+  width: 10vw;
+  height: auto;
+}
+
+.div2 {
+  background-color: green;
+  flex-grow: 1;
+  height: auto;
+}
+*/
+
