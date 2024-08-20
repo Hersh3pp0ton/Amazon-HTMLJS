@@ -8,12 +8,13 @@
   display: flex;
   flex-direction: column;
   width: 11.5vw;
-  height: 2000px;
+  height: 1500px;
   border-right: 2px solid #dddddd;
 }
 
 .prodotti-div {
   flex-grow: 1;
+  margin-left: 14px;
 }
 
 .categoria-p {
@@ -70,4 +71,139 @@
   color: #f3a847;
 }
 
+.benvenuto-sezione-p {
+  padding-top: 5px;
+}
 
+.desktop-h1 {
+  font-weight: normal;
+}
+
+.categorie-evidenza-h1 {
+  padding-top: 65px;
+}
+
+.categorie-evidenza-div {
+  margin-top: 25px;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.categoria-singola-div {
+  border: 2px solid #c2c2c2;
+  width: 180px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.categoria-singola-img {
+  padding-top: 30px;
+  width: 130px;
+  object-fit: center;
+  display: block;
+  margin: auto;
+}
+
+.categoria-singola-p {
+  padding-top: 15px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.categoria-singola-img-div {
+  height: 200px;
+}
+
+.categoria-singola-p-div {
+  padding-bottom: 38px;
+  background-color: #f5f5f5;
+}
+
+.bestseller-div {
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.bestseller-h1-div {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: row;
+}
+
+.scopri-piu-a {
+  font-size: 17px;
+  text-decoration: none;
+  color: #007590;
+  padding-left: 15px;
+  padding-top: 13px;
+}
+
+.scopri-piu-a:hover {
+  text-decoration: underline;
+  text-decoration-color: #f3a847;
+}
+
+.articolo-img-div {
+  width: 200px;
+}
+
+.articolo-img {
+  display: block;
+  margin: auto;
+  width: 180px;
+}
+
+.articolo-div {
+  height: 383px;
+  width: 209px;
+  border: 2px solid #c2c2c2;
+  margin-right: 10px;
+}
+
+.costo-euro-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.costo-euro-p {
+  margin-top: 10px;
+  font-size: 23px;
+}
+
+.costo-cent-p {
+  padding-top: 12px;
+}
+
+.info-articolo-div {
+  background-color: #f2f2f2;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 153px;
+}
+
+.nome-articolo-p {
+  padding-top: 35px;
+  font-size: 16px;
+}
+
+.voto-div {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+}
+
+.voto-img {
+  width: 85px;
+}
+
+.recensioni-p {
+  padding-left: 3px;
+  padding-top: 2px;
+}
